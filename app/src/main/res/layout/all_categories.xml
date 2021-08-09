@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Categories"
+    android:textAlignment="center"
+    android:textColor="@color/teal_700"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:fontFamily="cursive"
+    />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donut"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="12dp"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:30 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/donut"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:25 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake1"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:18 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake2"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:64 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake4"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:43 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake5"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:21 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake6"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:87 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake7"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/teal_700"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donut"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price:110 birr"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:text="add to cart"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cake8"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

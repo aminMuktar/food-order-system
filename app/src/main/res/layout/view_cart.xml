@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
+    >
+    <TextView
+        android:id="@+id/noprod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you added "
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:padding="50dp"
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your total price is"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:padding="50dp"
+        />
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="finish"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="50dp"
+        />
+
+    </LinearLayout>
